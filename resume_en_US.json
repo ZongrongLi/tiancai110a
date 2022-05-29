@@ -14,7 +14,7 @@
     "profile":{
         "name":"lizongrong",
         "email":"tiancai110a@gmail.com",
-        "mobile":"+86 17611717560",
+        "mobile":"17611717560(wechat)",
         "github":"https://github.com/tiancai110a",
         "leetcode":"https://leetcode.com/tiancai110a/",
         "workExpYear":"5",
@@ -137,28 +137,28 @@
         {
             "project_name":"order system",
             "project_role":"developer",
-            "project_desc":"user order and payment system, docking and centralize thirdpart payment system, keep user order and transaction infomation and provider query for them, provider cafeteria and restaurant payment and refund logic Etc.",
+            "project_desc":"user order and payment system, docking and centralize thirdpart payment system, keep user order and transaction infomation and provide query for them, provide cafeteria and restaurant payment and refund logic etc.",
             "dataIndex":0,
             "project_content":"optimize related logic,sql query, fix bug, develop  some modules"
         },
         {
             "project_name":"bills",
             "project_role":"main technical person in charge",
-            "project_desc":"bills system , sync data from order  system, cleaning, transform,aggrgation for them and  display to platform users, reconcilation with thrirpart payment system, providing order and transaction dipsplay in many chart form, providing optionally field of report,store report and intermedia data in s3 and dynamodb with stream, tech stack:  rds(postgres), dynamodb ,grpc,pulsar,s3",
+            "project_desc":"bills system , sync data from order  system, cleaning, transform,aggregation for them and  display to platform users, reconcilation with thirdpart payment system, providing order and transaction dipsplay in many chart form, providing optionally field of report,store report and intermedia data in s3 and dynamodb with stream, tech stack:  rds(postgres), dynamodb ,grpc,pulsar,s3",
             "dataIndex":1,
             "project_content":"demand analysis,design,coding,deploy,configuration monitoring,operations,oncall"
         },
         {
             "project_name":"async",
             "project_role":"main technical person in charge",
-            "project_desc":"a golang library , generate a job that run in async,help users to deal with time consuming task,implement by a state mechine, store job in database, task run in order in a cluster, support config of fail strategy  such as rollback or retry,inject code in bussiness logic to keep trace of the  task,provider interface to query detail and status of task",
+            "project_desc":"a golang library , generate a job that run in async,help users to deal with time consuming task,implement by a state mechine, store job in database, task run in order in a cluster with nonreentry, config of fail strategy  such as rollback or retry,inject code in bussiness logic to keep trace of the  task,provide interface to query detail and status of task",
             "dataIndex":3,
             "project_content":"design and coding"
         },
         {
             "project_name":"spinner",
             "project_role":"main technical person in charge",
-            "project_desc":"a distributed dispatch system, a platform  that user config timingly job, like cloudwatch in aws, support trigger of http,rpc, or script, rely etcd to keep elect main node of of the spinner server, job surpport configuration of schduler strategy,  fail stratery , or enentry ,sheduler module implemented by timingwheel, target can be in single ec2 or k8s cluster",
+            "project_desc":"a distributed dispatch system, a platform  that user config timingly job, like cloudwatch in aws, support trigger of http,rpc, or script, rely etcd to keep elect main node of of the spinner server, job surpport configuration of schdule strategy,  fail stratery , or reentrant ,sheduler module implemented by timingwheel, target can be in single ec2 or k8s cluster",
             "dataIndex":3,
             "project_content":"demand analysis,design,coding,deploy,configuration monitoring,operations,oncall"
         },
@@ -193,7 +193,7 @@
             "profile":{
                 "name":"lizongrong",
                 "email":"tiancai110a@gmail.com",
-                "mobile":"+86 17611717560",
+                "mobile":"+86 17611717560(wechat)",
                 "github":"https://github.com/tiancai110a",
                 "leetcode":"https://leetcode.com/tiancai110a/",
                 "workExpYear":"5",
@@ -316,28 +316,28 @@
                 {
                     "project_name":"order system",
                     "project_role":"developer",
-                    "project_desc":"user order and payment system, docking and centralize thirdpart payment system, keep user order and transaction infomation and provider query for them, provider cafeteria and restaurant payment and refund logic Etc.",
+                    "project_desc":"user order and payment system, docking and centralize thirdpart payment system, keep user order and transaction infomation and provide query for them, provide cafeteria and restaurant payment and refund logic etc.",
                     "dataIndex":0,
                     "project_content":"optimize related logic,sql query, fix bug, develop  some modules"
                 },
                 {
                     "project_name":"bills",
                     "project_role":"main technical person in charge",
-                    "project_desc":"bills system , sync data from order  system, cleaning, transform,aggrgation for them and  display to platform users, reconcilation with thrirpart payment system, providing order and transaction dipsplay in many chart form, providing optionally field of report,store report and intermedia data in s3 and dynamodb, tech stack:  rds(postgres), dynamodb ,grpc,pulsar,s3",
+                    "project_desc":"bills system , sync data from order  system, cleaning, transform,aggregation for them and  display to platform users, reconcilation with thirdpart payment system, providing order and transaction dipsplay in many chart form, providing optionally field of report,store report and intermedia data in s3 and dynamodb with stream, tech stack:  rds(postgres), dynamodb ,grpc,pulsar,s3",
                     "dataIndex":1,
                     "project_content":"demand analysis,design,coding,deploy,configuration monitoring,operations,oncall"
                 },
                 {
                     "project_name":"async",
                     "project_role":"main technical person in charge",
-                    "project_desc":"a golang library , generate a job that run in async,help users to deal with time consuming task,implement by a state mechine, store job in database, task run in order in a cluster, support config of fail strategy  such as rollback or retry,inject code in bussiness logic to keep trace of the  task,provider interface to query detail and status of task",
+                    "project_desc":"a golang library , generate a job that run in async,help users to deal with time consuming task,implement by a state mechine, store job in database, task run in order in a cluster with nonreentry, config of fail strategy  such as rollback or retry,inject code in bussiness logic to keep trace of the  task,provide interface to query detail and status of task",
                     "dataIndex":3,
                     "project_content":"design and coding"
                 },
                 {
                     "project_name":"spinner",
                     "project_role":"main technical person in charge",
-                    "project_desc":"a distributed dispatch system, a platform  that user config timingly job, like cloudwatch in aws, support trigger of http,rpc, or script, rely etcd to keep elect main node of of the spinner server, job surpport configuration of schduler strategy,  fail stratery , or enentry ,sheduler module implemented by timingwheel, target can be in single ec2 or k8s cluster",
+                    "project_desc":"a distributed dispatch system, a platform  that user config timingly job, like cloudwatch in aws, support trigger of http,rpc, or script, rely etcd to keep elect main node of of the spinner server, job surpport configuration of schdule strategy,  fail stratery , or reentrant ,sheduler module implemented by timingwheel, target can be in single ec2 or k8s cluster",
                     "dataIndex":3,
                     "project_content":"demand analysis,design,coding,deploy,configuration monitoring,operations,oncall"
                 },
