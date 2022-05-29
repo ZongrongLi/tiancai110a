@@ -144,7 +144,7 @@
         {
             "project_name":"bills",
             "project_role":"main technical person in charge",
-            "project_desc":"bills system , sync data from order  system, cleaning, transform,aggrgation for them and  display to platform users, reconcilation with thrirpart payment system, providing order and transaction dipsplay in many chart form, providing optionally field of report,store report and intermedia data in s3 and dynamodb, tech stack:  rds(postgres), dynamodb ,grpc,pulsar,s3",
+            "project_desc":"bills system , sync data from order  system, cleaning, transform,aggrgation for them and  display to platform users, reconcilation with thrirpart payment system, providing order and transaction dipsplay in many chart form, providing optionally field of report,store report and intermedia data in s3 and dynamodb with stream, tech stack:  rds(postgres), dynamodb ,grpc,pulsar,s3",
             "dataIndex":1,
             "project_content":"demand analysis,design,coding,deploy,configuration monitoring,operations,oncall"
         },
