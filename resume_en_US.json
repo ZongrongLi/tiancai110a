@@ -12,7 +12,7 @@
         "hidden":true
     },
     "profile":{
-        "name":"lizongrong",
+        "name":"Li Zongrong2",
         "email":"tiancai110a@gmail.com",
         "mobile":"17611717560(wechat)",
         "github":"https://github.com/tiancai110a",
@@ -26,25 +26,30 @@
             "edu_time":"2011.09 - 2015.09",
             "school":"Chongqing Technology and Business University",
             "major":"computer science",
-            "academic_degree":"本科",
+            "academic_degree":"bachelor",
             "dataIndex":0
         }
     ],
     "awardList":[
         {
-            "award_info":"lauguage",
-            "award_time":"mandarin(first language)",
+            "award_info":"mandarin",
+            "award_time":"first language",
             "dataIndex":0
         },
         {
-            "award_info":"language",
-            "award_time":"English(skillfull reading&writing)",
+            "award_info":"English",
+            "award_time":"professional",
             "dataIndex":1
         },
         {
             "award_time":"now live in beijing",
-            "award_info":" need ep",
+            "award_info":"require visa sponsorship",
             "dataIndex":2
+        },
+        {
+            "award_time":"do not require visa, i don't have much experience but willing to try",
+            "award_info":"remote work is acceptble",
+            "dataIndex":3
         }
     ],
     "workExpList":[
@@ -135,37 +140,37 @@
     ],
     "projectList":[
         {
-            "project_name":"order system",
+            "project_name":"order system  (in Meican)",
             "project_role":"developer",
             "project_desc":"user order and payment system, docking and centralize thirdpart payment system, keep user order and transaction infomation and provide query for them, provide cafeteria and restaurant payment and refund logic etc.",
             "dataIndex":0,
-            "project_content":"optimize related logic,sql query, fix bug, develop  some modules"
+            "project_content":"optimize related logic,sql query, fix bug, develop business modules, maitain correction of order data, repair data using scripts,export data for bi, maintainance stage and test environment"
         },
         {
-            "project_name":"bills",
+            "project_name":"bills  (in Meican)",
             "project_role":"main technical person in charge",
-            "project_desc":"bills system , sync data from order  system, cleaning, transform,aggregation for them and  display to platform users, reconcilation with thirdpart payment system, providing order and transaction dipsplay in many chart form, providing optionally field of report,store report and intermedia data in s3 and dynamodb with stream, tech stack:  rds(postgres), dynamodb ,grpc,pulsar,s3",
+            "project_desc":"bills system , sync data from order  system, cleaning, transform,aggregation for them and display to platform users, reconcilation with thirdpart payment system, providing order and transaction dipsplay in many chart form, providing optionally field of report,store report and intermediate data in s3 and dynamodb with stream, maintainance view shadow for different user,tech stack: rds(postgres), dynamodb ,grpc,pulsar,s3",
             "dataIndex":1,
-            "project_content":"demand analysis,design,coding,deploy,configuration monitoring,operations,oncall"
+            "project_content":"demand analysis,optimize, coding and refactor, design,deploy,configuration monitoring,operations,oncall,export data for bi, maintainance stage and test environment"
         },
         {
-            "project_name":"async",
+            "project_name":"async  (in Meican)",
             "project_role":"main technical person in charge",
-            "project_desc":"a golang library , generate a job that run in async,help users to deal with time consuming task,implement by a state mechine, store job in database, task run in order in a cluster with nonreentry, config of fail strategy  such as rollback or retry,inject code in bussiness logic to keep trace of the  task,provide interface to query detail and status of task",
+            "project_desc":"a golang library , generate a job that run in async,help users to deal with time consuming task,implement by a state machine, store job in database, task run in order in a cluster with nonreentry, config of fail strategy such as rollback or retry,inject code in business logic to keep trace of the task,provide interface to query detail and status of task",
             "dataIndex":3,
             "project_content":"design and coding"
         },
         {
-            "project_name":"spinner",
+            "project_name":"spinner  (in Meican)",
             "project_role":"main technical person in charge",
-            "project_desc":"a distributed dispatch system, a platform  that user config timingly job, like cloudwatch in aws, support trigger of http,rpc, or script, rely etcd to keep elect main node of of the spinner server, job surpport configuration of schdule strategy,  fail stratery , or reentrant ,sheduler module implemented by timingwheel, target can be in single ec2 or k8s cluster",
+            "project_desc":"a distributed dispatch system, a platform that user config timingly job, like cloudwatch in aws, support trigger of http,rpc, or script, rely etcd to keep elect main node of of the spinner server, job support configuration of schdule strategy, fail stratergy , or reentrant ,scheduler module implemented by timingwheel, target can be in single ec2 or k8s cluster",
             "dataIndex":3,
             "project_content":"demand analysis,design,coding,deploy,configuration monitoring,operations,oncall"
         },
         {
-            "project_name":"stategy development and scipt interact with chain",
+            "project_name":"strategy development and script interact with chain",
             "project_role":"self-employed",
-            "project_desc":"have developed strategy such as arbitrage,penny jump ,scalp, martin and other tricky strategy, catch data from exchange to do some backtest, have developed script interact with blockchain such as monitor price and buy nft in gamefi market,move brick between defi and exchagne",
+            "project_desc":"have developed strategy such as arbitrage,penny jump ,scalp, martin and other tricky strategy, catch data from exchange to do some backtest, have developed script interact with blockchain such as monitor price and buy nft in gamefi market,move brick between defi and exchange",
             "dataIndex":4,
             "project_content":"as above"
         }
@@ -174,7 +179,7 @@
 
     ],
     "aboutme":{
-        "aboutme_desc":"① high interest in blockchain and encryption currency, highly adaptable and quick start to develop, i've develop trade strategy myself,developed script to interact with blockchain, I'v learn and traced some gamefi project,familiar with eth core mechanism, i have read through some contract,and eth undelying implement such as uniswapV3 and geth,know some basic algorithem and cryptography\n② good coding habit and familiar with algotithem\n③ familiar with tech stack  and toolchain in backend development"
+        "aboutme_desc":"① Familiar with micro service,Cloud Native Development environment .Extensively participated in the business development;developed the company’s infrastructure and library\n②Adept at back-end development techniques and processes,algorithm and data structure\n③Highly adaptable and quick to develop blockchain. Developed and backtested digital cryptocurrency trading strategy independently; developed script to interact with blockchain and familiar with the eth core mechanism.Once read through some contract,and eth underlying implement such as uniswapV3 and geth;qualified with some basic algorithem and cryptography \n④Possess basic trading knowledge"
     },
     "locales":{
         "en_US":{
@@ -191,82 +196,87 @@
                 "hidden":true
             },
             "profile":{
-                "name":"lizongrong",
+                "name":"Li Zongrong",
                 "email":"tiancai110a@gmail.com",
                 "mobile":"+86 17611717560(wechat)",
                 "github":"https://github.com/tiancai110a",
                 "leetcode":"https://leetcode.com/tiancai110a/",
                 "workExpYear":"5",
-                "workPlace":"beijing",
-                "positionTitle":"golang backend developer"
+                "workPlace":"now live in Beijing(China)",
+                "positionTitle":"Golang back-end developer"
             },
             "educationList":[
                 {
-                    "edu_time":"2011.09 - 2015.09",
+                    "edu_time":"(September 2011 to July 2015)",
                     "school":"Chongqing Technology and Business University",
-                    "major":"computer science",
-                    "academic_degree":"本科",
+                    "major":"Bachelor of Computer Science",
+                    "academic_degree":"",
                     "dataIndex":0
                 }
             ],
             "awardList":[
                 {
-                    "award_info":"lauguage",
-                    "award_time":"mandarin(first language)",
+                    "award_info":"Mandarin",
+                    "award_time":"first language",
                     "dataIndex":0
                 },
                 {
-                    "award_info":"language",
-                    "award_time":"English(skillfull reading&writing)",
+                    "award_info":"English",
+                    "award_time":"professional",
                     "dataIndex":1
                 },
                 {
                     "award_time":"now live in beijing",
-                    "award_info":" need ep",
+                    "award_info":"require visa sponsorship",
                     "dataIndex":2
+                },
+                {
+                    "award_time":"",
+                    "award_info":"Acceptable to remote work",
+                    "dataIndex":3
                 }
             ],
             "workExpList":[
                 {
                     "work_time":"2015 - 2017.11",
                     "company_name":"China Shipbuilding Industry System Engineering Research Institute",
-                    "department_name":"it develope",
+                    "department_name":"Software R&D Department",
                     "work_desc":"software developer",
                     "dataIndex":0
                 },
                 {
                     "work_time":"2018.10 - 2019.01",
-                    "company_name":"jingdong",
-                    "department_name":"search",
+                    "company_name":"NASDAQ:JD",
+                    "department_name":"search backend",
                     "work_desc":"c++ backend",
                     "dataIndex":1
                 },
                 {
                     "work_time":"2019.01 - 2019.05",
-                    "company_name":"bytedance",
-                    "department_name":"pipixia",
-                    "work_desc":"golang backend",
+                    "company_name":"ByteDance",
+                    "department_name":"Pipixia",
+                    "work_desc":"Golang backend",
                     "dataIndex":2
                 },
                 {
                     "work_time":"2019-07 - 2022-04",
-                    "company_name":"meican",
+                    "company_name":"Meican",
                     "department_name":"cafeteria group",
-                    "work_desc":"golang backend",
+                    "work_desc":"Golang backend",
                     "dataIndex":3
                 }
             ],
             "skillList":[
                 {
-                    "skill_name":"backend techchain",
+                    "skill_name":"Backend technical line",
                     "skill_level":90,
-                    "skill_desc":"sql,nosql , rpc , caceh,mq,aws,docker,shell,cloud-native development",
+                    "skill_desc":"Adept at sql,nosql , rpc , cache,mq,aws,Docker,shell and Cloud Native Development",
                     "dataIndex":0
                 },
                 {
-                    "skill_name":" blockchain techchain",
+                    "skill_name":"Blockchain technology",
                     "skill_level":90,
-                    "skill_desc":"truffle、remix, hardhat, graphql, solidity",
+                    "skill_desc":"Excel at truffle , remix, hardhat, solidity and so on",
                     "dataIndex":1
                 },
                 {
@@ -314,46 +324,46 @@
             ],
             "projectList":[
                 {
-                    "project_name":"order system",
-                    "project_role":"developer",
-                    "project_desc":"user order and payment system, docking and centralize thirdpart payment system, keep user order and transaction infomation and provide query for them, provide cafeteria and restaurant payment and refund logic etc.",
+                    "project_name":"Order System   (in Meican)",
+                    "project_role":"Developer",
+                    "project_desc":"The user order payment system is used to centralize the third-party payment, and provide payment query, transaction data display and payment refund business logic related to canteens and restaurants",
                     "dataIndex":0,
-                    "project_content":"optimize related logic,sql query, fix bug, develop  some modules"
+                    "project_content":"① Developed and optimized relevant business logic and SQL\n②Fixed bugs and order data to ensure the smooth operation of the system\n"
                 },
                 {
-                    "project_name":"bills",
-                    "project_role":"main technical person in charge",
-                    "project_desc":"bills system , sync data from order  system, cleaning, transform,aggregation for them and  display to platform users, reconcilation with thirdpart payment system, providing order and transaction dipsplay in many chart form, providing optionally field of report,store report and intermedia data in s3 and dynamodb with stream, tech stack:  rds(postgres), dynamodb ,grpc,pulsar,s3",
+                    "project_name":"Bills  (in Meican)",
+                    "project_role":"main technical director",
+                    "project_desc":"The main function of this project is to synchronize order system data. After data extraction, cleaning, classification, aggregation and display, users can download optional field reports for reconciliation; It can commit asynchronous tasks to download and store them in S3 through streaming uploads;maintain visibility of data presentation in the form of charts and tables ;technoloy stack: Golang, RDS (PostgresSQL), Dynamodb, GRPC, Pulsar, S3, and runs on K8S.",
                     "dataIndex":1,
-                    "project_content":"demand analysis,design,coding,deploy,configuration monitoring,operations,oncall"
+                    "project_content":"①Responsible for system design and deployment\r\n②Configured monitoring indicators and alarms to ensure correct data input, calculation and storage\n③Provided data for analysis and maintain the test environment configuration"
                 },
                 {
-                    "project_name":"async",
-                    "project_role":"main technical person in charge",
-                    "project_desc":"a golang library , generate a job that run in async,help users to deal with time consuming task,implement by a state mechine, store job in database, task run in order in a cluster with nonreentry, config of fail strategy  such as rollback or retry,inject code in bussiness logic to keep trace of the  task,provide interface to query detail and status of task",
+                    "project_name":"Async  (in Meican)",
+                    "project_role":"main technical director",
+                    "project_desc":"The main function of this project is to provide users with a library of asynchronously running tasks, which can persist the submitted tasks to the database. Those tasks are queued for execution in the cluster, helping users to perform time-consuming tasks. This project also supports rollback ,retry and replay policies.It provides a database plug-in that binds other business logic to tasks, automatically inserts code to monitor task execution, , and provide interface to query detail and status of tasks.",
                     "dataIndex":3,
-                    "project_content":"design and coding"
+                    "project_content":"Responsible for project design and coding"
                 },
                 {
-                    "project_name":"spinner",
-                    "project_role":"main technical person in charge",
-                    "project_desc":"a distributed dispatch system, a platform  that user config timingly job, like cloudwatch in aws, support trigger of http,rpc, or script, rely etcd to keep elect main node of of the spinner server, job surpport configuration of schdule strategy,  fail stratery , or reentrant ,sheduler module implemented by timingwheel, target can be in single ec2 or k8s cluster",
+                    "project_name":"Spinner  (in Meican)",
+                    "project_role":"main technical director",
+                    "project_desc":"The project is a distributed dispatch system,through which users can config timiely job like cloudwatch in aws,while each job can support configuration of scheduling strategies,fail strategies or reentrant and also  protocols headers.Scehduler module is implemented by timingwheel,and trigger target can be in single ec2 or k8s cluster.It supports triggger target of http,rpc, or script and relies etcd to elect main node",
                     "dataIndex":3,
-                    "project_content":"demand analysis,design,coding,deploy,configuration monitoring,operations,oncall"
+                    "project_content":"① Designed systerm and coding ② Deployment, Configured monitoring indicators \n④ using timing wheel to support schedule more than 2000 jobs"
                 },
                 {
-                    "project_name":"stategy development and scipt interact with chain",
-                    "project_role":"self-employed",
-                    "project_desc":"have developed strategy such as arbitrage,penny jump ,scalp, martin and other tricky strategy, catch data from exchange to do some backtest, have developed script interact with blockchain such as monitor price and buy nft in gamefi market,move brick between defi and exchagne",
+                    "project_name":"Users’ History Record  (in ByteDance)",
+                    "project_role":"main technical director",
+                    "project_desc":"This project is used to help users bind their personal browsing history. There are hot comments or hot comments of internet celebrity followed by the user in his&her browsing history ,which can be timingly sent to the user.The browsing records are marked as read when users click on them, and unread records are marked with extra red dots.",
                     "dataIndex":4,
-                    "project_content":"as above"
+                    "project_content":"① Development:Consumed user’s hot events from Kafka;stored hot events for each user in graph sql; maintained user’s read status for each event with Redis bitmap;assigned red dots to different information according to reading records and latest events on the client side,which supported regular push to millions of users. ② Technology stack:Golang redis,graph sql,kafka."
                 }
             ],
             "workList":[
 
             ],
             "aboutme":{
-                "aboutme_desc":"① high interest in blockchain and encryption currency, highly adaptable and quick start to develop, i've develop trade strategy myself,developed script to interact with blockchain, I'v learn and traced some gamefi project,familiar with eth core mechanism, i have read through some contract,and eth undelying implement such as uniswapV3 and geth,know some basic algorithem and cryptography\n② good coding habit and familiar with algotithem\n③ familiar with tech stack  and toolchain in backend development"
+                "aboutme_desc":"① Familiar with micro service,Cloud Native Development environment .Extensively participated in the business development;developed the company’s infrastructure and library\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n②Adept at back-end development techniques and processes,algorithm and data structure\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n③For Blockchain ,I beleieve that I can highly adaptable and  quick start to develop. I am familiar with the eth core mechanism.Once read through some contract,and eth underlying implement such as uniswapV3 and geth;qualified with some basic algorithem and cryptography,I have developed and backtested digital cryptocurrency trading strategy independently; developed script to interact with blockchain \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n④Possess basic trading knowledge \n⑤ always exiced about new Technology and willing to work at unfamiliar field"
             }
         }
     },

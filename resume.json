@@ -12,7 +12,7 @@
         "hidden":true
     },
     "profile":{
-        "name":"lizongrong",
+        "name":"Li Zongrong3",
         "email":"tiancai110a@gmail.com",
         "mobile":"17611717560(wechat)",
         "github":"https://github.com/tiancai110a",
@@ -38,12 +38,12 @@
         },
         {
             "award_info":"language",
-            "award_time":"English(skillfull reading&writing)",
+            "award_time":"English(professional)",
             "dataIndex":1
         },
         {
             "award_time":"now live in beijing",
-            "award_info":" need ep",
+            "award_info":" require visa sponsorship",
             "dataIndex":2
         }
     ],
@@ -191,7 +191,7 @@
                 "hidden":true
             },
             "profile":{
-                "name":"lizongrong",
+                "name":"Li Zongrong",
                 "email":"tiancai110a@gmail.com",
                 "mobile":"+86 17611717560",
                 "github":"https://github.com/tiancai110a",
@@ -217,12 +217,12 @@
                 },
                 {
                     "award_info":"language",
-                    "award_time":"English(skillfull reading&writing)",
+                    "award_time":"English(professional)",
                     "dataIndex":1
                 },
                 {
                     "award_time":"now live in beijing",
-                    "award_info":" need ep",
+                    "award_info":" require visa sponsorship",
                     "dataIndex":2
                 }
             ],
