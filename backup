@@ -1,0 +1,113 @@
+"//":"{
+        "work_time":"2015 - 2017.11",
+        "company_name":"China Shipbuilding Industry System Engineering Research Institute",
+        "department_name":"it develope",
+        "work_desc":"software developer",
+        "dataIndex":0
+    },
+    {
+        "work_time":"2018.10 - 2019.01",
+        "company_name":"jingdong",
+        "department_name":"search",
+        "work_desc":"c++ backend",
+        "dataIndex":1
+    },
+    {
+        "work_time":"2019.01 - 2019.05",
+        "company_name":"bytedance",
+        "department_name":"pipixia",
+        "work_desc":"golang backend",
+        "dataIndex":2
+    },
+    {
+        "work_time":"2019-07 - 2022-04",
+        "company_name":"meican",
+        "department_name":"cafeteria group",
+        "work_desc":"golang backend",
+        "dataIndex":3
+    }"
+
+
+
+    {
+	"skill_name":" blockchain techchain",
+	"skill_level":90,
+	"skill_desc":"truffle、remix, hardhat, graphql, solidity",
+	"dataIndex":1
+    },
+
+
+
+    ④ 对区块链有浓厚兴趣,动手能力强,可快速上手,自己做过数字加密货币交易策略开发,回测, 写脚本链上交互,了解追溯过相关项目代码,熟悉eth核心机制,了解一些智能合约的实现,通读过一些底层实现源代码,比如geth, uniswapV3,了解一些相关算法和密码学
+    {
+	"project_name":"订单系统   (in Meican)",
+	"project_role":"developer",
+	"project_desc":"用户下单支付系统, 用于对接第三方支付,和三方支付同步, 提供支付查询, 交易数据的展示,食堂和餐厅相关支付退款业务逻辑",
+	"dataIndex":0,
+	"project_content":"优化开发相关业务逻辑, 修复bug,优化sql查询, 维护订单数据正确, 修复订单数据.保证系统平稳运行,维护配置测试环境,导出数据给bi"
+    },
+    {
+	"project_name":"点餐系统  (in Meican)",
+	"project_role":"developer",
+	"project_desc":"维护用户点餐主体数据, 排餐,菜品,食堂,餐厅,相关的业务",
+	"dataIndex":1,
+	"project_content":"优化开发相关业务逻辑,优化查询, 修复bug"
+    },
+    {
+	"project_name":"bills  (in Meican)",
+	"project_role":"主要负责人",
+	"project_desc":"美餐公司账单系统,从订单系统同步数据, 经过数据提取清洗,归类, 聚合,展示,用户可选字段报表下载提供对账功能, 提交异步任务执行下载,文件存储在s3,使用流式上传,维护数据的可见性\n\n技术栈: golang ,rds(postgres), dynamodb ,grpc,pulsar,s3, 运行在k8s",
+	"dataIndex":2,
+	"project_content":"负责设计系统, 部署上线, 运维优化,配置监控指标和报警,保证数据的输入, 计算和存储的正确,对接bi为提供数据做分析,维护配置测试环境"
+    },
+    {
+	"project_name":"async异步任务库  (in Meican)",
+	"project_role":"主要负责人",
+	"project_desc":"为用户提供一个异步运行的task的库, 该库可以将提交的任务持久化到数据库,task在集群中被排队执行,帮助使用者执行耗时比较长的任务,支持配置回滚重试,重放等策略,提供数据库插件,可以绑定其他的业务逻辑到task中,自动插入代码监控任务执行, 提供task查询接口",
+	"dataIndex":3,
+	"project_content":"设计和编码,优化重构维护,给使用的同事提供支持,可最大程度的在集群中分配任务发挥最大性能"
+    },
+    {
+	"project_name":"spinner   (in Meican)",
+	"project_role":"主要负责人",
+	"project_desc":"分布式调度系统, 定时触发http接口, rpc,脚本, 触发单个节点,k8s集群, crontab 时间配置, 可以配置触发策略, 失败策略, 可以配置协议header,  配置可重入分布式节点依赖etcd, 调度主体由时间轮实现\n技术栈:golang,etcd,rpc,aws网络",
+	"dataIndex":4,
+	"project_content":"负责设计系统, 部署上线, 运维优化,配置监控指标和报警, 时间轮可支持超过2000个任务调度执行"
+    },
+    {
+	"project_name":"交易策略开发和区块链交互脚本",
+	"project_role":"自雇",
+	"project_desc":"交易策略: 套利策略开发, 高频炒盘口,马丁策略,自己想到的一些奇怪策略. 自己抓取数据使用backtrader做回测.\n写过链上交互脚本, 比如gamefi的nft价格监控和自动买入,交易所和defi搬砖",
+	"dataIndex":6,
+	"project_content":"自己设计,debug, 自己抓取数据使用backtrader做回测."
+    }
+
+
+    {
+	"project_name":"Bills  (in Meican)",
+	"project_role":"main technical director",
+	"project_desc":"The main function of this project is to synchronize order system data. After data extraction, cleaning, classification, aggregation and display, users can download optional field reports for reconciliation; It can commit asynchronous tasks to download and store them in S3 through streaming uploads;maintain visibility of data presentation in the form of charts and tables ;technoloy stack: Golang, RDS (PostgresSQL), Dynamodb, GRPC, Pulsar, S3, and runs on K8S.",
+	"dataIndex":1,
+	"project_content":"①Responsible for system design and deployment\r\n②Configured monitoring indicators and alarms to ensure correct data input, calculation and storage\n③Provided data for analysis and maintain the test environment configuration"
+    },
+    {
+	"project_name":"Async  (in Meican)",
+	"project_role":"main technical director",
+	"project_desc":"The main function of this project is to provide users with a library of asynchronously running tasks, which can persist the submitted tasks to the database. Those tasks are queued for execution in the cluster, helping users to perform time-consuming tasks. This project also supports rollback ,retry and replay policies.It provides a database plug-in that binds other business logic to tasks, automatically inserts code to monitor task execution, , and provide interface to query detail and status of tasks.",
+	"dataIndex":3,
+	"project_content":"Responsible for project design and coding"
+    },
+    {
+	"project_name":"Spinner  (in Meican)",
+	"project_role":"main technical director",
+	"project_desc":"The project is a distributed dispatch system,through which users can config timiely job like cloudwatch in aws,while each job can support configuration of scheduling strategies,fail strategies or reentrant and also  protocols headers.Scehduler module is implemented by timingwheel,and trigger target can be in single ec2 or k8s cluster.It supports triggger target of http,rpc, or script and relies etcd to elect main node",
+	"dataIndex":3,
+	"project_content":"① Designed systerm and coding ② Deployment, Configured monitoring indicators \n④ using timing wheel to support schedule more than 2000 jobs"
+    },
+    {
+	"project_name":"Users’ History Record  (in ByteDance)",
+	"project_role":"main technical director",
+	"project_desc":"This project is used to help users bind their personal browsing history. There are hot comments or hot comments of internet celebrity followed by the user in his&her browsing history ,which can be timingly sent to the user.The browsing records are marked as read when users click on them, and unread records are marked with extra red dots.",
+	"dataIndex":4,
+	"project_content":"① Development:Consumed user’s hot events from Kafka;stored hot events for each user in graph sql; maintained user’s read status for each event with Redis bitmap;assigned red dots to different information according to reading records and latest events on the client side,which supported regular push to millions of users. ② Technology stack:Golang redis,graph sql,kafka."
+    }

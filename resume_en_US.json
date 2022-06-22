@@ -17,9 +17,9 @@
         "mobile":"17611717560(wechat)",
         "github":"https://github.com/tiancai110a",
         "leetcode":"https://leetcode.com/tiancai110a/",
-        "workExpYear":"5",
-        "workPlace":"beijing",
-        "positionTitle":"golang backend developer"
+        "workExpYear":"5 year experience in backend development",
+        "linkdin":"https://www.linkedin.com/in/zongrong-li-9b916a186/",
+        "positionTitle":""
     },
     "educationList":[
         {
@@ -33,71 +33,39 @@
     "awardList":[
         {
             "award_info":"mandarin",
-            "award_time":"first language",
+            "award_time":"native",
             "dataIndex":0
         },
         {
             "award_info":"English",
             "award_time":"professional",
             "dataIndex":1
-        },
-        {
-            "award_time":"now live in beijing",
-            "award_info":"require visa sponsorship",
-            "dataIndex":2
-        },
-        {
-            "award_time":"do not require visa, i don't have much experience but willing to try",
-            "award_info":"remote work is acceptble",
-            "dataIndex":3
         }
     ],
     "workExpList":[
-        {
-            "work_time":"2015 - 2017.11",
-            "company_name":"China Shipbuilding Industry System Engineering Research Institute",
-            "department_name":"it develope",
-            "work_desc":"software developer",
-            "dataIndex":0
-        },
-        {
-            "work_time":"2018.10 - 2019.01",
-            "company_name":"jingdong",
-            "department_name":"search",
-            "work_desc":"c++ backend",
-            "dataIndex":1
-        },
-        {
-            "work_time":"2019.01 - 2019.05",
-            "company_name":"bytedance",
-            "department_name":"pipixia",
-            "work_desc":"golang backend",
-            "dataIndex":2
-        },
-        {
-            "work_time":"2019-07 - 2022-04",
-            "company_name":"meican",
-            "department_name":"cafeteria group",
-            "work_desc":"golang backend",
-            "dataIndex":3
-        }
+    
     ],
     "skillList":[
         {
-            "skill_name":"backend techchain",
+            "skill_name":"Cloud Native",
             "skill_level":90,
-            "skill_desc":"sql,nosql , rpc , caceh,mq,aws,docker,shell,cloud-native development",
+            "skill_desc":"Kubernates,Docker, Grpc, CI/CD, terraform, argo",
             "dataIndex":0
         },
         {
-            "skill_name":" blockchain techchain",
+            "skill_name":"AWS",
             "skill_level":90,
-            "skill_desc":"truffle、remix, hardhat, graphql, solidity",
-            "dataIndex":1
+            "skill_desc":"route53,EKS,EC2, VPC, S3, dynamodb, other components like (alb/elb, safegurad, route table, az etc.)",
+            "dataIndex":0
         },
         {
-            "skill_name":"tdd",
+            "skill_name":"develop style",
             "skill_level":90,
+            "skill_desc":"TDD,OOP,Agile"
+        },
+        {
+            "skill_name":"golang",
+            "skill_level":95,
             "skill_desc":""
         },
         {
@@ -111,31 +79,27 @@
             "skill_desc":""
         },
         {
-            "skill_name":"sql",
+            "skill_name":"database",
             "skill_level":90,
-            "skill_desc":"",
+            "skill_desc":"mysql, postgres,influxdb",
             "dataIndex":2
         },
         {
-            "skill_name":"algorithem",
+            "skill_name":"nosql",
             "skill_level":90,
             "dataIndex":1,
-            "skill_desc":""
-        },
-        {
-            "skill_name":"golang",
-            "skill_level":95,
-            "skill_desc":""
-        },
-        {
-            "skill_name":"js",
-            "skill_level":30
+            "skill_desc":"redis,elastic search"
         },
         {
             "skill_name":"linux",
             "skill_desc":"",
             "skill_level":89,
             "dataIndex":0
+        },
+        {
+            "skill_name":"mq",
+            "skill_level":90,
+            "skill_desc":"kafka, pulsar"
         }
     ],
     "projectList":[
@@ -201,15 +165,15 @@
                 "mobile":"+86 17611717560(wechat)",
                 "github":"https://github.com/tiancai110a",
                 "leetcode":"https://leetcode.com/tiancai110a/",
-                "workExpYear":"5",
-                "workPlace":"now live in Beijing(China)",
-                "positionTitle":"Golang back-end developer"
+                "workExpYear":"5 year experience in backend development",
+                "linkdin":"https://www.linkedin.com/in/zongrong-li-9b916a186/",
+                "positionTitle":""
             },
             "educationList":[
                 {
                     "edu_time":"(September 2011 to July 2015)",
-                    "school":"Chongqing Technology and Business University",
-                    "major":"Bachelor of Computer Science",
+                    "school":"Bachelor Chongqing Technology and Business University",
+                    "major":"",
                     "academic_degree":"",
                     "dataIndex":0
                 }
@@ -217,71 +181,55 @@
             "awardList":[
                 {
                     "award_info":"Mandarin",
-                    "award_time":"first language",
+                    "award_time":"native",
                     "dataIndex":0
                 },
                 {
                     "award_info":"English",
                     "award_time":"professional",
                     "dataIndex":1
-                },
-                {
-                    "award_time":"now live in beijing",
-                    "award_info":"require visa sponsorship",
-                    "dataIndex":2
-                },
-                {
-                    "award_time":"",
-                    "award_info":"Acceptable to remote work",
-                    "dataIndex":3
                 }
             ],
             "workExpList":[
-                {
-                    "work_time":"2015 - 2017.11",
-                    "company_name":"China Shipbuilding Industry System Engineering Research Institute",
-                    "department_name":"Software R&D Department",
-                    "work_desc":"software developer",
-                    "dataIndex":0
-                },
-                {
-                    "work_time":"2018.10 - 2019.01",
-                    "company_name":"NASDAQ:JD",
-                    "department_name":"search backend",
-                    "work_desc":"c++ backend",
-                    "dataIndex":1
-                },
-                {
-                    "work_time":"2019.01 - 2019.05",
-                    "company_name":"ByteDance",
-                    "department_name":"Pipixia",
-                    "work_desc":"Golang backend",
-                    "dataIndex":2
-                },
-                {
-                    "work_time":"2019-07 - 2022-04",
-                    "company_name":"Meican",
-                    "department_name":"cafeteria group",
-                    "work_desc":"Golang backend",
-                    "dataIndex":3
-                }
             ],
             "skillList":[
                 {
-                    "skill_name":"Backend technical line",
-                    "skill_level":90,
-                    "skill_desc":"Adept at sql,nosql , rpc , cache,mq,aws,Docker,shell and Cloud Native Development",
+                    "skill_name":"Cloud Native",
+                    "skill_level":70,
+                    "skill_desc":"Kubernates,Docker, Grpc, CI/CD, terraform, argo",
                     "dataIndex":0
                 },
                 {
-                    "skill_name":"Blockchain technology",
+                    "skill_name":"AWS",
                     "skill_level":90,
-                    "skill_desc":"Excel at truffle , remix, hardhat, solidity and so on",
-                    "dataIndex":1
+                    "skill_desc":"route53,EKS,EC2, VPC, S3, dynamodb, other components like (alb/elb, safegurad, route table, az etc.)",
+                    "dataIndex":0
                 },
                 {
-                    "skill_name":"tdd",
+                    "skill_name":"develop style",
                     "skill_level":90,
+                    "skill_desc":"TDD,OOP,Agile"
+                },
+                {
+                    "skill_name":"mq",
+                    "skill_level":90,
+                    "skill_desc":"kafka, pulsar"
+                },
+                {
+                    "skill_name":"database",
+                    "skill_level":90,
+                    "skill_desc":"mysql, postgres,influxdb",
+                    "dataIndex":2
+                },
+                {
+                    "skill_name":"nosql",
+                    "skill_level":90,
+                    "dataIndex":1,
+                    "skill_desc":"redis,elastic search"
+                },
+                {
+                    "skill_name":"golang",
+                    "skill_level":95,
                     "skill_desc":""
                 },
                 {
@@ -293,27 +241,6 @@
                     "skill_name":"gitflow",
                     "skill_level":90,
                     "skill_desc":""
-                },
-                {
-                    "skill_name":"sql",
-                    "skill_level":90,
-                    "skill_desc":"",
-                    "dataIndex":2
-                },
-                {
-                    "skill_name":"algorithem",
-                    "skill_level":90,
-                    "dataIndex":1,
-                    "skill_desc":""
-                },
-                {
-                    "skill_name":"golang",
-                    "skill_level":95,
-                    "skill_desc":""
-                },
-                {
-                    "skill_name":"js",
-                    "skill_level":30
                 },
                 {
                     "skill_name":"linux",
@@ -328,42 +255,48 @@
                     "project_role":"Developer",
                     "project_desc":"The user order payment system is used to centralize the third-party payment, and provide payment query, transaction data display and payment refund business logic related to canteens and restaurants",
                     "dataIndex":0,
-                    "project_content":"① Developed and optimized relevant business logic and SQL\n②Fixed bugs and order data to ensure the smooth operation of the system\n"
+                    "technical_line":"golang,python,shell,postgres,Kubernetes,terraform,argo,gitlab,docker,pulsar,redis, grpc,gin, postgres,nginx,etcd"
+
                 },
                 {
                     "project_name":"Bills  (in Meican)",
                     "project_role":"main technical director",
                     "project_desc":"The main function of this project is to synchronize order system data. After data extraction, cleaning, classification, aggregation and display, users can download optional field reports for reconciliation; It can commit asynchronous tasks to download and store them in S3 through streaming uploads;maintain visibility of data presentation in the form of charts and tables ;technoloy stack: Golang, RDS (PostgresSQL), Dynamodb, GRPC, Pulsar, S3, and runs on K8S.",
                     "dataIndex":1,
-                    "project_content":"①Responsible for system design and deployment\r\n②Configured monitoring indicators and alarms to ensure correct data input, calculation and storage\n③Provided data for analysis and maintain the test environment configuration"
+                    "project_content":"①Responsible for system design and deployment\r\n②Configured monitoring indicators and alarms to ensure correct data input, calculation and storage\n③Provided data for analysis and maintain the test environment configuration",
+                    "technical_line":""
                 },
                 {
                     "project_name":"Async  (in Meican)",
                     "project_role":"main technical director",
                     "project_desc":"The main function of this project is to provide users with a library of asynchronously running tasks, which can persist the submitted tasks to the database. Those tasks are queued for execution in the cluster, helping users to perform time-consuming tasks. This project also supports rollback ,retry and replay policies.It provides a database plug-in that binds other business logic to tasks, automatically inserts code to monitor task execution, , and provide interface to query detail and status of tasks.",
                     "dataIndex":3,
-                    "project_content":"Responsible for project design and coding"
+                    "project_content":"Responsible for project design and coding",
+                    "technical_line":""
                 },
                 {
                     "project_name":"Spinner  (in Meican)",
                     "project_role":"main technical director",
                     "project_desc":"The project is a distributed dispatch system,through which users can config timiely job like cloudwatch in aws,while each job can support configuration of scheduling strategies,fail strategies or reentrant and also  protocols headers.Scehduler module is implemented by timingwheel,and trigger target can be in single ec2 or k8s cluster.It supports triggger target of http,rpc, or script and relies etcd to elect main node",
                     "dataIndex":3,
-                    "project_content":"① Designed systerm and coding ② Deployment, Configured monitoring indicators \n④ using timing wheel to support schedule more than 2000 jobs"
+                    "project_content":"① Designed systerm and coding ② Deployment, Configured monitoring indicators \n④ using timing wheel to support schedule more than 2000 jobs",
+                    "technical_line":""
                 },
                 {
                     "project_name":"Users’ History Record  (in ByteDance)",
                     "project_role":"main technical director",
                     "project_desc":"This project is used to help users bind their personal browsing history. There are hot comments or hot comments of internet celebrity followed by the user in his&her browsing history ,which can be timingly sent to the user.The browsing records are marked as read when users click on them, and unread records are marked with extra red dots.",
                     "dataIndex":4,
-                    "project_content":"① Development:Consumed user’s hot events from Kafka;stored hot events for each user in graph sql; maintained user’s read status for each event with Redis bitmap;assigned red dots to different information according to reading records and latest events on the client side,which supported regular push to millions of users. ② Technology stack:Golang redis,graph sql,kafka."
+                    "project_content":"① Development:Consumed user’s hot events from Kafka;stored hot events for each user in graph sql; maintained user’s read status for each event with Redis bitmap;assigned red dots to different information according to reading records and latest events on the client side,which supported regular push to millions of users. ② Technology stack:Golang redis,graph sql,kafka.",
+                    "technical_line":""
                 }
             ],
             "workList":[
 
             ],
             "aboutme":{
-                "aboutme_desc":"① Familiar with micro service,Cloud Native Development environment .Extensively participated in the business development;developed the company’s infrastructure and library\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n②Adept at back-end development techniques and processes,algorithm and data structure\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n③For Blockchain ,I beleieve that I can highly adaptable and  quick start to develop. I am familiar with the eth core mechanism.Once read through some contract,and eth underlying implement such as uniswapV3 and geth;qualified with some basic algorithem and cryptography,I have developed and backtested digital cryptocurrency trading strategy independently; developed script to interact with blockchain \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n④Possess basic trading knowledge \n⑤ always exiced about new Technology and willing to work at unfamiliar field"
+                "aboutme_desc":"① Familiar with micro service,Cloud Native Development environment .Extensively participated in the business development;developed the company’s infrastructure and library\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n②Adept at back-end development techniques and processes,algorithm and data structure\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                "//":"③For Blockchain ,I beleieve that I can highly adaptable and  quick start to develop. I am familiar with the eth core mechanism.Once read through some contract,and eth underlying implement such as uniswapV3 and geth;qualified with some basic algorithem and cryptography,I have developed and backtested digital cryptocurrency trading strategy independently; developed script to interact with blockchain \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n④Possess basic trading knowledge \n"
             }
         }
     },

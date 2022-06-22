@@ -17,9 +17,9 @@
         "mobile":"+86 17611717560(wechat)",
         "github":"https://github.com/tiancai110a",
         "leetcode":"https://leetcode.com/tiancai110a/",
-        "workExpYear":"5",
-        "workPlace":"北京",
-        "positionTitle":"golang后端工程师"
+        "workExpYear":"5 year experience in backend development",
+        "linkdin":"https://www.linkedin.com/in/zongrong-li-9b916a186/",
+        "positionTitle":""
     },
     "educationList":[
         {
@@ -40,66 +40,49 @@
             "award_info":"English",
             "award_time":"professional",
             "dataIndex":1
-        },
-        {
-            "award_time":"require sponsorship of visa",
-            "award_info":"人在北京",
-            "dataIndex":2
-        },
-        {
-            "award_time":"不需要签证,没有远程工作经验但是愿意尝试",
-            "award_info":"接受远程",
-            "dataIndex":3
         }
     ],
     "workExpList":[
-        {
-            "work_time":"2015 - 2017.11",
-            "company_name":"中国船舶工业系统研究院",
-            "department_name":"研发",
-            "work_desc":"软件开发",
-            "dataIndex":0
-        },
-        {
-            "work_time":"2018.10 - 2019.01",
-            "company_name":"京东",
-            "department_name":"搜索后台",
-            "work_desc":"c++后端",
-            "dataIndex":1
-        },
-        {
-            "work_time":"2019.01 - 2019.05",
-            "company_name":"字节跳动",
-            "department_name":"皮皮虾",
-            "work_desc":"golang后端",
-            "dataIndex":2
-        },
-        {
-            "work_time":"2019-07 - 2022-04",
-            "company_name":"美餐",
-            "department_name":"食堂组",
-            "work_desc":"golang后端",
-            "dataIndex":3
-        }
     ],
     "skillList":[
         {
-            "skill_name":"后端技术栈",
-            "skill_level":90,
-            "skill_desc":"sql,nosql , rpc , 缓存,mq,aws,云原生开发,shell",
+            "skill_name":"Cloud Native",
+            "skill_level":70,
+            "skill_desc":"Kubernates,Docker, Grpc, CI/CD, terraform, argo",
             "dataIndex":0
         },
         {
-            "skill_name":"区块链技术栈",
+            "skill_name":"AWS",
             "skill_level":90,
-            "skill_desc":"熟悉Truffle、Remix等开发测试、部署工具 ,接触过graphql",
-            "dataIndex":1
+            "skill_desc":"route53,EKS,EC2, VPC, S3, dynamodb, other components like (alb/elb, safegurad, route table, az etc.)",
+            "dataIndex":0
         },
         {
-            "skill_name":"linux",
-            "skill_desc":"",
-            "skill_level":89,
-            "dataIndex":0
+            "skill_name":"develop style",
+            "skill_level":90,
+            "skill_desc":"TDD,OOP,Agile"
+        },
+        {
+            "skill_name":"mq",
+            "skill_level":90,
+            "skill_desc":"kafka, pulsar"
+        },
+        {
+            "skill_name":"database",
+            "skill_level":90,
+            "skill_desc":"mysql, postgres,influxdb",
+            "dataIndex":2
+        },
+        {
+            "skill_name":"nosql",
+            "skill_level":90,
+            "dataIndex":1,
+            "skill_desc":"redis,elastic search"
+        },
+        {
+            "skill_name":"golang",
+            "skill_level":95,
+            "skill_desc":""
         },
         {
             "skill_name":"python",
@@ -112,76 +95,51 @@
             "skill_desc":""
         },
         {
-            "skill_name":"tdd",
-            "skill_level":90,
-            "skill_desc":""
-        },
-        {
-            "skill_name":"sql",
-            "skill_level":90,
+            "skill_name":"linux",
             "skill_desc":"",
-            "dataIndex":2
-        },
-        {
-            "skill_name":"algorithem",
-            "skill_level":90,
-            "dataIndex":1,
-            "skill_desc":""
-        },
-        {
-            "skill_name":"js",
-            "skill_level":30
+            "skill_level":89,
+            "dataIndex":0
         }
     ],
     "projectList":[
         {
-            "project_name":"订单系统   (in Meican)",
+            "project_name":"美餐业务系统 (in 美餐 July 2019 - Apr 2022)",
             "project_role":"developer",
-            "project_desc":"用户下单支付系统, 用于对接第三方支付,和三方支付同步, 提供支付查询, 交易数据的展示,食堂和餐厅相关支付退款业务逻辑",
-            "dataIndex":0,
-            "project_content":"优化开发相关业务逻辑, 修复bug,优化sql查询, 维护订单数据正确, 修复订单数据.保证系统平稳运行,维护配置测试环境,导出数据给bi"
-        },
-        {
-            "project_name":"点餐系统  (in Meican)",
-            "project_role":"developer",
-            "project_desc":"维护用户点餐主体数据, 排餐,菜品,食堂,餐厅,相关的业务",
+            "project_desc":"\n作为中国大陆从事外卖业务的互联网公司,服务于上千个餐厅和企业超过百万用户,本项目是关于食堂组的业务后端,由菜品商店, 支付下单,运营后端, 账务数据分析和展示,支持的产品端包括小程序,等大小10几个复杂模块组成。系统是基于Cloud Native 部署的，由6个主要的微服务构建而成，基于grpc通信，能够同时支持2000个后台任务进行异步调度执行，每日QPS峰值达十几w",
             "dataIndex":1,
-            "project_content":"优化开发相关业务逻辑,优化查询, 修复bug"
+            "project_content":" ① 独立设计开发了其中的账户模块 ,括数据库设计，Kubernetes 部署等。并参与团队剩余模块的实现，提供优化方案 \n② 与系统的维护，部署监控，性能优化，和故障处理。保证系统有可用99%。\n③ 负责开发了内部工具, 比如提供测试人员使用docker脚本, 开发内部基础设施分布式调度平台, 开发内部使用的库\n④ 相关DevOps工作，比如搭建维护配置测试环境\n⑤ 参与系统后续优化，扩容方案设计，以支持最高峰值上万的用户",
+            "technical_line":"Golang，Python，Shell，Kubernetes，Docker，Terraform，Redis，Postgres，Etcd，Grpc，Nginx，Git"
         },
         {
-            "project_name":"bills  (in Meican)",
-            "project_role":"主要负责人",
-            "project_desc":"美餐公司账单系统,从订单系统同步数据, 经过数据提取清洗,归类, 聚合,展示,用户可选字段报表下载提供对账功能, 提交异步任务执行下载,文件存储在s3,使用流式上传,维护数据的可见性\n\n技术栈: golang ,rds(postgres), dynamodb ,grpc,pulsar,s3, 运行在k8s",
+            "project_name":"皮皮虾 (in 字节跳动 Oct 2018 - Jan 2019)",
+            "project_role":"developer",
+            "project_desc":"该项目是一个在中国和东南亚拥有300百万用户的搞笑娱乐社区APP, 后端组负责业务推送相关服务推送信息包括文章, 评论, 视频等",
             "dataIndex":2,
-            "project_content":"负责设计系统, 部署上线, 运维优化,配置监控指标和报警,保证数据的输入, 计算和存储的正确,对接bi为提供数据做分析,维护配置测试环境"
+            "project_content":"\n① 开发和调优,用户历史记录浏览模块,支撑3百万用户新数据的推送，并保证99%的推送信息在0.5-1秒内到达。\n② 技术调研, 内部基础平台的调研选型调研,撰写书面报告 \n③ 负责一些运营数据的分析和组内对于数据的监控,搭建promethus并收集数据到grafana. \n④ 参与多次在线事故处理",
+            "technical_line":"Golang，GraphQL，MySQL, Redis，Kafka，Nginx"
         },
         {
-            "project_name":"async异步任务库  (in Meican)",
-            "project_role":"主要负责人",
-            "project_desc":"为用户提供一个异步运行的task的库, 该库可以将提交的任务持久化到数据库,task在集群中被排队执行,帮助使用者执行耗时比较长的任务,支持配置回滚重试,重放等策略,提供数据库插件,可以绑定其他的业务逻辑到task中,自动插入代码监控任务执行, 提供task查询接口",
+            "project_name":"搜索引擎组后端 (in 京东 Oct 2018 - Jan 2019)",
+            "project_role":"developer",
+            "project_desc":"\ngroup 主要的工作是维护一个搜索引擎,对从上游的每日TB级数据进行同步,然后根据业务和领域进行索引并分库维护数据, 通过很多自动化的脚本,保证日常数据流的正确. 并为其他团队提供数据和相关的查询API",
             "dataIndex":3,
-            "project_content":"设计和编码,优化重构维护,给使用的同事提供支持,可最大程度的在集群中分配任务发挥最大性能"
+            "project_content":"\n① 开发和维护自动化脚本,监控各方业务流程流程,必要时手动处理保证流程正确\n② 据维护搜索结果优化并撰写书面报告\n③ 根据突发流量对各种资源扩容和缩容, 以应对打折促销日支持的突增超过100倍的日增量订单\n ④ 开发业务模块, 定制thrift rpc 对数据进行广播发送。",
+            "technical_line":"C++，Python，Shell，Linux，Thrift，SQL"
         },
         {
-            "project_name":"spinner   (in Meican)",
-            "project_role":"主要负责人",
-            "project_desc":"分布式调度系统, 定时触发http接口, rpc,脚本, 触发单个节点,k8s集群, crontab 时间配置, 可以配置触发策略, 失败策略, 可以配置协议header,  配置可重入分布式节点依赖etcd, 调度主体由时间轮实现\n技术栈:golang,etcd,rpc,aws网络",
+            "project_name":"高速录取 (in 中国船舶工业系统研究院 July 2015 - Nov 2017)",
+            "project_role":"developer",
+            "project_desc":"\n舰船通信软件, 基于C++ QT库的客户端软件, 移植多平台(linux,window, 国产嵌入式实时操作系统), 该软件用于用户定制军事指令协议,作为一个数据分发的网关, 对数据包的进行协议识别进行智能路由",
             "dataIndex":4,
-            "project_content":"负责设计系统, 部署上线, 运维优化,配置监控指标和报警, 时间轮可支持超过2000个任务调度执行"
-        },
-        {
-            "project_name":"交易策略开发和区块链交互脚本",
-            "project_role":"自雇",
-            "project_desc":"交易策略: 套利策略开发, 高频炒盘口,马丁策略,自己想到的一些奇怪策略. 自己抓取数据使用backtrader做回测.\n写过链上交互脚本, 比如gamefi的nft价格监控和自动买入,交易所和defi搬砖",
-            "dataIndex":6,
-            "project_content":"自己设计,debug, 自己抓取数据使用backtrader做回测."
+            "project_content":"\n 作为项目负责人独立承担设计和开发工作, 实现简单的集群互备和健康检查,以及数据同步操作, 撰写项目文档, 负责后续需求沟通和迭代开发",
+            "technical_line":"C++, QT, linux, TCP, UDP"
         }
     ],
     "workList":[
 
     ],
     "aboutme":{
-        "aboutme_desc":"① 熟悉微服务,云原生开发,主要负责1.公司基础设施和库的开发 2. 业务开发 3. 维护系统正常运行\n ② 做了很多用户流水和账单数据数据账户开发,整理维护, 展示,大量使用sql,python\n ③ 代码习惯好,熟悉后端开发相关技术和流程\n ④ 对区块链有浓厚兴趣,动手能力强,可快速上手,自己做过数字加密货币交易策略开发,回测, 写脚本链上交互,了解追溯过相关项目代码,熟悉eth核心机制,了解一些智能合约的实现,通读过一些底层实现源代码,比如geth, uniswapV3,了解一些相关算法和密码学\n⑤ 熟悉算法和数据结构\n ⑥ 有基本的交易知识"
+        "aboutme_desc":"① 熟悉后端开发相关技术和流程, 熟悉微服务,云原生开发,熟悉sql优化, 和后端服务业务或者技术调优,经历过很多项目\n② 有良好的代码风格，注重代码质量, 熟悉多种编程范式\n③ 动手能力强, 会为了兴趣去学习新的技术,接受经常在不熟悉的领域工作, 作为后端程序员工作中会修改一些前端代码,也做过开发过区块链相关的技术开发\n④ 有扎实的计算机理论基础，良好的算法与数据结构基础，了解计算机基本原理与常见机制。 \n⑤ 工作中主动了解解决问题, 主动沟通, 不给自己设立边界,态度积极"
     },
     "theme":{
         "color":"#2f5785",

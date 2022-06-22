@@ -17,9 +17,9 @@
         "mobile":"17611717560(wechat)",
         "github":"https://github.com/tiancai110a",
         "leetcode":"https://leetcode.com/tiancai110a/",
-        "workExpYear":"5",
-        "workPlace":"beijing",
-        "positionTitle":"golang backend developer"
+        "workExpYear":"5 year experience in backend development",
+        "linkdin":"https://www.linkedin.com/in/zongrong-li-9b916a186/",
+        "positionTitle":""
     },
     "educationList":[
         {
@@ -33,49 +33,16 @@
     "awardList":[
         {
             "award_info":"lauguage",
-            "award_time":"mandarin(first language)",
+            "award_time":"mandarin(native)",
             "dataIndex":0
         },
         {
             "award_info":"language",
             "award_time":"English(professional)",
             "dataIndex":1
-        },
-        {
-            "award_time":"now live in beijing",
-            "award_info":" require visa sponsorship",
-            "dataIndex":2
         }
     ],
     "workExpList":[
-        {
-            "work_time":"2015 - 2017.11",
-            "company_name":"China Shipbuilding Industry System Engineering Research Institute",
-            "department_name":"it develope",
-            "work_desc":"software developer",
-            "dataIndex":0
-        },
-        {
-            "work_time":"2018.10 - 2019.01",
-            "company_name":"jingdong",
-            "department_name":"search",
-            "work_desc":"c++ backend",
-            "dataIndex":1
-        },
-        {
-            "work_time":"2019.01 - 2019.05",
-            "company_name":"bytedance",
-            "department_name":"pipixia",
-            "work_desc":"golang backend",
-            "dataIndex":2
-        },
-        {
-            "work_time":"2019-07 - 2022-04",
-            "company_name":"meican",
-            "department_name":"cafeteria group",
-            "work_desc":"golang backend",
-            "dataIndex":3
-        }
     ],
     "skillList":[
         {
@@ -196,9 +163,9 @@
                 "mobile":"+86 17611717560",
                 "github":"https://github.com/tiancai110a",
                 "leetcode":"https://leetcode.com/tiancai110a/",
-                "workExpYear":"5",
-                "workPlace":"beijing",
-                "positionTitle":"golang backend developer"
+                "workExpYear":"5 year experience in backend development",
+                "linkdin":"https://www.linkedin.com/in/zongrong-li-9b916a186/",
+                "positionTitle":""
             },
             "educationList":[
                 {
@@ -212,18 +179,13 @@
             "awardList":[
                 {
                     "award_info":"lauguage",
-                    "award_time":"mandarin(first language)",
+                    "award_time":"mandarin(native)",
                     "dataIndex":0
                 },
                 {
                     "award_info":"language",
                     "award_time":"English(professional)",
                     "dataIndex":1
-                },
-                {
-                    "award_time":"now live in beijing",
-                    "award_info":" require visa sponsorship",
-                    "dataIndex":2
                 }
             ],
             "workExpList":[
@@ -353,7 +315,8 @@
 
             ],
             "aboutme":{
-                "aboutme_desc":"① high interest in blockchain and encryption currency, highly adaptable and quick start to develop, i've develop trade strategy myself,developed script to interact with blockchain, I'v learn and traced some gamefi project,familiar with eth core mechanism, i have read through some contract,and eth undelying implement such as uniswapV3 and geth,know some basic algorithem and cryptography\n② good coding habit and familiar with algotithem\n③ familiar with tech stack  and toolchain in backend development"
+                "aboutme_desc":"① As a five-year backend developer, I am adept at backend develop tech line,  familiar with golang, python and so on，always willing to learn new techs, and not limited to working only as a developer. ② Starting working in matured companies and thriving in a start-up ③ Famliliar with micro service，Cloud Native developing environment, micro service，Cloud Native good coding habit and familiar with algotithem\n ④ familiar with tech stack  and toolchain in backend development",
+                "//" :"② high interest in blockchain and encryption currency, highly adaptable and quick start to develop, i've develop trade strategy myself,developed script to interact with blockchain, I'v learn and traced some gamefi project,familiar with eth core mechanism, i have read through some contract,and eth undelying implement such as uniswapV3 and geth,know some basic algorithem and cryptography\n"
             }
         }
     },
