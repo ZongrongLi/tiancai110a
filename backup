@@ -111,3 +111,7 @@
 	"dataIndex":4,
 	"project_content":"① Development:Consumed user’s hot events from Kafka;stored hot events for each user in graph sql; maintained user’s read status for each event with Redis bitmap;assigned red dots to different information according to reading records and latest events on the client side,which supported regular push to millions of users. ② Technology stack:Golang redis,graph sql,kafka."
     }
+
+
+
+

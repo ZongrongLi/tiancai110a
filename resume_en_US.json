@@ -9,12 +9,12 @@
         "aboutme":"自我介绍"
     },
     "avatar":{
-        "hidden":true
+        "hidden": true
     },
     "profile":{
         "name":"Li Zongrong2",
         "email":"tiancai110a@gmail.com",
-        "mobile":"17611717560(wechat)",
+        "mobile":"17611717560",
         "github":"https://github.com/tiancai110a",
         "leetcode":"https://leetcode.com/tiancai110a/",
         "workExpYear":"5 year experience in backend development",
@@ -48,8 +48,8 @@
     "skillList":[
         {
             "skill_name":"Cloud Native",
-            "skill_level":90,
-            "skill_desc":"Kubernates,Docker, Grpc, CI/CD, terraform, argo",
+            "skill_level":70,
+            "skill_desc":"Kubernates,Docker, Grpc, CI/CD, terraform, Argo",
             "dataIndex":0
         },
         {
@@ -99,14 +99,14 @@
         {
             "skill_name":"mq",
             "skill_level":90,
-            "skill_desc":"kafka, pulsar"
+            "skill_desc":"Kafka, Pulsar"
         }
     ],
     "projectList":[
         {
             "project_name":"order system  (in Meican)",
             "project_role":"developer",
-            "project_desc":"user order and payment system, docking and centralize thirdpart payment system, keep user order and transaction infomation and provide query for them, provide cafeteria and restaurant payment and refund logic etc.",
+            "project_desc":"user order and payment system, docking and centralize thirdpart payment system, keep user order and transaction infomation and provide query for them, provide cafeteria and restaurant payment and refund logic etc",
             "dataIndex":0,
             "project_content":"optimize related logic,sql query, fix bug, develop business modules, maitain correction of order data, repair data using scripts,export data for bi, maintainance stage and test environment"
         },
@@ -143,7 +143,7 @@
 
     ],
     "aboutme":{
-        "aboutme_desc":"① Familiar with micro service,Cloud Native Development environment .Extensively participated in the business development;developed the company’s infrastructure and library\n②Adept at back-end development techniques and processes,algorithm and data structure\n③Highly adaptable and quick to develop blockchain. Developed and backtested digital cryptocurrency trading strategy independently; developed script to interact with blockchain and familiar with the eth core mechanism.Once read through some contract,and eth underlying implement such as uniswapV3 and geth;qualified with some basic algorithem and cryptography \n④Possess basic trading knowledge"
+        "aboutme_desc":"\n• Be familiar with Backend technology and related development process, be familiar with Microservice, Cloud-Native environment, and experienced in optimization of SQL, or related backend performance. Use them in projects frequently.\n• Good coding habits, Focus on code quality and be familiar with the mainstream paradigm.\n• Strong hands-on ability, learn some technology just for interest, willing to work in an unfamiliar field, as like to be a backend developer, I may fix some fronted code in work, or I have also done some blockchain-related development.\n• I had solid foundations in data structure and algorithms with decent knowledge of basic computer theory.\n• Proactively understand and solve problems at work, actively communicate, do not set boundaries for me, and have a positive work attitude"
     },
     "locales":{
         "en_US":{
@@ -157,23 +157,23 @@
                 "aboutme":"自我介绍"
             },
             "avatar":{
-                "hidden":true
+                "hidden": true
             },
             "profile":{
                 "name":"Li Zongrong",
                 "email":"tiancai110a@gmail.com",
-                "mobile":"+86 17611717560(wechat)",
+                "mobile":"",
                 "github":"https://github.com/tiancai110a",
                 "leetcode":"https://leetcode.com/tiancai110a/",
-                "workExpYear":"5 year experience in backend development",
+                "workExpYear":"5 years as backend",
                 "linkdin":"https://www.linkedin.com/in/zongrong-li-9b916a186/",
                 "positionTitle":""
-            },
+            },  
             "educationList":[
                 {
                     "edu_time":"(September 2011 to July 2015)",
-                    "school":"Bachelor Chongqing Technology and Business University",
-                    "major":"",
+                    "school":"B.E.  Computer Science",
+                    "major":"Chongqing Technology and Business University",
                     "academic_degree":"",
                     "dataIndex":0
                 }
@@ -194,56 +194,57 @@
             ],
             "skillList":[
                 {
-                    "skill_name":"Cloud Native",
-                    "skill_level":70,
-                    "skill_desc":"Kubernates,Docker, Grpc, CI/CD, terraform, argo",
-                    "dataIndex":0
-                },
-                {
-                    "skill_name":"AWS",
-                    "skill_level":90,
-                    "skill_desc":"route53,EKS,EC2, VPC, S3, dynamodb, other components like (alb/elb, safegurad, route table, az etc.)",
-                    "dataIndex":0
-                },
-                {
-                    "skill_name":"develop style",
-                    "skill_level":90,
-                    "skill_desc":"TDD,OOP,Agile"
-                },
-                {
-                    "skill_name":"mq",
-                    "skill_level":90,
-                    "skill_desc":"kafka, pulsar"
-                },
-                {
-                    "skill_name":"database",
-                    "skill_level":90,
-                    "skill_desc":"mysql, postgres,influxdb",
-                    "dataIndex":2
-                },
-                {
-                    "skill_name":"nosql",
-                    "skill_level":90,
-                    "dataIndex":1,
-                    "skill_desc":"redis,elastic search"
-                },
-                {
-                    "skill_name":"golang",
+                    "skill_name":"Golang",
                     "skill_level":95,
                     "skill_desc":""
                 },
                 {
-                    "skill_name":"python",
+                    "skill_name":"Python",
                     "skill_level":80,
                     "skill_desc":""
                 },
                 {
-                    "skill_name":"gitflow",
+                    "skill_name":"TDD, OOP, Agile",
                     "skill_level":90,
                     "skill_desc":""
                 },
                 {
-                    "skill_name":"linux",
+                    "skill_name":"Kafka, Pulsar",
+                    "skill_level":90,
+                    "skill_desc":""
+                },
+                {
+                    "skill_name":"Redis, ElasticSearch",
+                    "skill_level":90,
+                    "dataIndex":1,
+                    "skill_desc":""
+                },
+                {
+                    "skill_name":"MySQL, Postgres, Influxdb",
+                    "skill_level":90,
+                    "skill_desc":"",
+                    "dataIndex":2
+                },
+                {
+                    "skill_name":"Kubernates, Docker, Terraform",
+                    "skill_level":60,
+                    "skill_desc":"",
+                    "dataIndex":0
+                },
+                {
+                    "skill_name":"AWS (VPC, S3, Dynamodb etc.)",
+                    "skill_level":90,
+                    "skill_desc":"",
+                    "dataIndex":0
+                },
+                {
+                    "skill_name":"Gitflow, Argo",
+                    "skill_desc":"",
+                    "skill_level":89,
+                    "dataIndex":0
+                },
+                {
+                    "skill_name":"Linux",
                     "skill_desc":"",
                     "skill_level":89,
                     "dataIndex":0
@@ -251,52 +252,52 @@
             ],
             "projectList":[
                 {
-                    "project_name":"Order System   (in Meican)",
+                    "company_name": "Miecan",
+                    "time_range":"July 2019 - Apr 2022",
+                    "project_name":"Meican Business system",
                     "project_role":"Developer",
-                    "project_desc":"The user order payment system is used to centralize the third-party payment, and provide payment query, transaction data display and payment refund business logic related to canteens and restaurants",
+                    "project_desc":"The project is the business back-end of the canteen group in Meican(https://meican.com), which is an online takeaway service in Mainland China, serving thousands of restaurants and companies with more than one million users. Based on Cloud Native and grpc, built from  6 major microservices, and composed of 10 complex modules, including food stores, order, payment, back-end operation, data analysis, etc.it enables asynchronous scheduling of 2000 background tasks simultaneously, peaking to 100000 QPS",
+                    "project_content":"\n• In charge of the bill module, such as database design, cloud deployment. Participated in the implementation and optimization of the other modules as a team member\n• Responsible for developing the internal infrastructure distributed scheduling platform,  some internal libraries, and internal tools, such as packaging some docker images for automated testing and test environments. DevOps work, such as building and maintaining the test environment\n• Participated in system maintenance, including deployment monitoring, performance optimization, and troubleshooting, to ensure system availability to 99%\n• Participated in further system optimization and capacity expansion to support scenarios where users boost to over 10 times more",
                     "dataIndex":0,
-                    "technical_line":"golang,python,shell,postgres,Kubernetes,terraform,argo,gitlab,docker,pulsar,redis, grpc,gin, postgres,nginx,etcd"
+                    "technical_line":"Golang,Python,Shell,Kubernetes,Docker,Terraform,Redis,Postgres,Etcd,Grpc,Nginx,Git"
 
                 },
                 {
-                    "project_name":"Bills  (in Meican)",
-                    "project_role":"main technical director",
-                    "project_desc":"The main function of this project is to synchronize order system data. After data extraction, cleaning, classification, aggregation and display, users can download optional field reports for reconciliation; It can commit asynchronous tasks to download and store them in S3 through streaming uploads;maintain visibility of data presentation in the form of charts and tables ;technoloy stack: Golang, RDS (PostgresSQL), Dynamodb, GRPC, Pulsar, S3, and runs on K8S.",
+                    "company_name": "ByteDance",
+                    "time_range":"Oct 2018 - Jan 2019",
+                    "project_name":"Pipixia",
+                    "project_role":"Developer",
+                    "project_desc":"As a business-pushing service in an entertaining and social App with over 300 million users in Asia, it pushes information including articles, comments, videos, etc",
                     "dataIndex":1,
-                    "project_content":"①Responsible for system design and deployment\r\n②Configured monitoring indicators and alarms to ensure correct data input, calculation and storage\n③Provided data for analysis and maintain the test environment configuration",
-                    "technical_line":""
+                    "project_content":"\n• In charge of tech and internal-platform research\n• Developed and optimized the user-history module to ensure 99% of the pushing to 3 million users are within 0.5-1 second. \n• Responsible for data analysis and building the monitoring system with Prometheus and grafana.\n• Participated in incident handling",
+                    "technical_line":"Golang,GraphQL,MySQL,Redis,Kafka,Nginx"
                 },
                 {
-                    "project_name":"Async  (in Meican)",
-                    "project_role":"main technical director",
-                    "project_desc":"The main function of this project is to provide users with a library of asynchronously running tasks, which can persist the submitted tasks to the database. Those tasks are queued for execution in the cluster, helping users to perform time-consuming tasks. This project also supports rollback ,retry and replay policies.It provides a database plug-in that binds other business logic to tasks, automatically inserts code to monitor task execution, , and provide interface to query detail and status of tasks.",
+                    "company_name": "NASDAQ:JD",
+                    "time_range":" Oct 2018 - Jan 2019",
+                    "project_name":"Search Engine Backend",
+                    "project_role":"Developer",
+                    "project_desc":"To maintain a search engine, synchronizing the daily TB data from the upstream, indexing and maintaining the data based on the business or fields, we used automated scripts to handle the data, and provide data and related query APIs for other teams",
+                    "dataIndex":2,
+                    "project_content":"\n• Developed and maintained the  automated scripts, monitored the business flows of all parties, and executed manual corrections when necessary\n• Analyzed and optimized the system based on the indexing and maintaining outcome.\n• Implemented the expansion and contraction of various resources to cope with burst traffic, such as the daily order increments by 100 times on promotion days.\n• Developed business modules, customized thrift rpc for broadcasting",
+                    "technical_line":"C++,Python,Shell,Linux,Thrift,SQL"
+                },
+                {
+                    "company_name": "CSSC Systems Engineering Research Institute",
+                    "time_range":" Oct 2015 - Jan 2017",
+                    "project_name":"High speed data Recording&Dispatching system",
+                    "project_role":"Developer",
+                    "project_desc":"As a ship communication software based on the C++ QT library, it can be ported to multi-platforms and used for customizing the instruction protocol and performing protocol identification and intelligent routing for data packets",
                     "dataIndex":3,
-                    "project_content":"Responsible for project design and coding",
-                    "technical_line":""
-                },
-                {
-                    "project_name":"Spinner  (in Meican)",
-                    "project_role":"main technical director",
-                    "project_desc":"The project is a distributed dispatch system,through which users can config timiely job like cloudwatch in aws,while each job can support configuration of scheduling strategies,fail strategies or reentrant and also  protocols headers.Scehduler module is implemented by timingwheel,and trigger target can be in single ec2 or k8s cluster.It supports triggger target of http,rpc, or script and relies etcd to elect main node",
-                    "dataIndex":3,
-                    "project_content":"① Designed systerm and coding ② Deployment, Configured monitoring indicators \n④ using timing wheel to support schedule more than 2000 jobs",
-                    "technical_line":""
-                },
-                {
-                    "project_name":"Users’ History Record  (in ByteDance)",
-                    "project_role":"main technical director",
-                    "project_desc":"This project is used to help users bind their personal browsing history. There are hot comments or hot comments of internet celebrity followed by the user in his&her browsing history ,which can be timingly sent to the user.The browsing records are marked as read when users click on them, and unread records are marked with extra red dots.",
-                    "dataIndex":4,
-                    "project_content":"① Development:Consumed user’s hot events from Kafka;stored hot events for each user in graph sql; maintained user’s read status for each event with Redis bitmap;assigned red dots to different information according to reading records and latest events on the client side,which supported regular push to millions of users. ② Technology stack:Golang redis,graph sql,kafka.",
-                    "technical_line":""
+                    "project_content":"\n• Designed and developed the system as the tech director.\n• Implemented clusters’ mutual backup, health check, and data synchronization.\n• In charge of user-oriented business analysis, iterative development, and documentation",
+                    "technical_line":"C++,QT,linux,TCP,UDP"
                 }
             ],
             "workList":[
 
             ],
             "aboutme":{
-                "aboutme_desc":"① Familiar with micro service,Cloud Native Development environment .Extensively participated in the business development;developed the company’s infrastructure and library\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n②Adept at back-end development techniques and processes,algorithm and data structure\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-                "//":"③For Blockchain ,I beleieve that I can highly adaptable and  quick start to develop. I am familiar with the eth core mechanism.Once read through some contract,and eth underlying implement such as uniswapV3 and geth;qualified with some basic algorithem and cryptography,I have developed and backtested digital cryptocurrency trading strategy independently; developed script to interact with blockchain \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n④Possess basic trading knowledge \n"
+                "aboutme_desc":"As a 5-year backend developer, I have a solid engineering background. I am adept at Go and Cloud-Native development and familiar with Python and many other Microservice development skills. Starting working in mature companies and thriving in a start-up, I can quickly adapt to different roles, take on different responsibilities, and deliver robust solutions that drive business goals. As a team person, I am always willing to share and learn from others, growing and contributing more to the team."
             }
         }
     },
